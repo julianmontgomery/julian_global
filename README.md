@@ -10,7 +10,8 @@ The `site/` folder is the whole website. No build step, no server code. Drop it 
 
 ## 2. Publish (pick one, all free)
 
-- **Cloudflare Pages** (recommended: fast in Brazil, free SSL): Workers & Pages > Create > Pages > Upload assets > drag the `site` folder. Then Custom domains > add `julianglobal.com.br`.
+- **Cloudflare Pages** (recommended: fast in Brazil, free SSL): Will add to Github repo, commmit and Push  Already added custom domains > add `julianglobal.com.br`.
+<!-- We chose Cloudflare  -->
 - **Netlify**: app.netlify.com/drop > drag the `site` folder. Then Domain settings > add custom domain.
 - **GitHub Pages**: upload the contents of `site/` to a repo, enable Pages, add the custom domain.
 
