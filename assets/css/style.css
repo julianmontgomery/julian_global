@@ -226,6 +226,8 @@ button { font: inherit; color: inherit; }
   .menu-btn { display: inline-grid; }
 }
 @media (max-width: 640px) {
+  /* On phones the language button sits on the left, so open the menu rightward from it */
+  .lang-menu { left: 0; right: auto; max-width: calc(100vw - 2 * var(--gutter)); }
   .brand-name { display: none; }
   .nav-inner { gap: .5rem; }
   .nav-tools { gap: .35rem; }
