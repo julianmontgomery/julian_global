@@ -6,8 +6,7 @@
 window.I18N = {
   pt: {
     "meta.title": "Julian Montgomery | Consultor de Comunicação para Negócios Globais",
-    "meta.description": "Consultoria intercultural de negócios entre EUA e Brasil e workshops práticos de comunicação em inglês para equipes brasileiras. Presencial em Florianópolis e online.",
-
+    "meta.description": "Consultoria intercultural EUA–Brasil e workshops práticos de comunicação em inglês para equipes brasileiras. Presencial em Florianópolis e online.",
     "ui.skip": "Pular para o conteúdo",
     "ui.menu": "Abrir menu de navegação",
     "ui.lang": "Mudar idioma",
