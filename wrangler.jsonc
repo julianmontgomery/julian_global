@@ -1,8 +1,11 @@
 // Cloudflare deploy settings for julianglobal.com.br.
-// Same settings Cloudflare was auto-detecting on every build, now saved in the repo.
 {
   "name": "julian-global",
   "compatibility_date": "2026-10-01",
   "observability": { "enabled": true },
-  "assets": { "directory": "." }
+  "assets": {
+    "directory": ".",
+    // Serve 404.html (with a real 404 status) for any address that doesn't exist
+    "not_found_handling": "404-page"
+  }
 }

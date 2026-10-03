@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Página não encontrada | Julian Montgomery</title>
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/fonts.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+<style>
+  /* Page-not-found: one navy panel, the same message in PT / EN / ES, one way home. Works without JavaScript. */
+  .nf { min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; background: var(--navy); color: var(--on-navy); padding: 3rem var(--gutter); }
+  .nf-inner { width: 100%; max-width: 640px; display: flex; flex-direction: column; gap: 2rem; }
+  .nf-brand { display: flex; align-items: center; gap: .7rem; color: var(--on-navy); text-decoration: none; }
+  .nf-brand .brand-mark { box-shadow: inset 0 0 0 1px rgba(212, 182, 124, .45); }
+  .nf-code { font: 400 clamp(4rem, 14vw, 7rem)/1 var(--serif); color: var(--gold-on-navy); letter-spacing: -.02em; }
+  .nf-msgs { display: flex; flex-direction: column; border-top: 1px solid var(--navy-line); }
+  .nf-msg { padding-block: 1rem; border-bottom: 1px solid var(--navy-line); }
+  .nf-msg h1, .nf-msg h2 { font-size: clamp(1.35rem, 3.4vw, 1.75rem); line-height: 1.25; color: var(--on-navy); }
+  .nf-msg p { color: var(--on-navy-soft); font-size: .98rem; margin-top: .25rem; }
+  .nf .btn { white-space: normal; text-align: center; }
+  .nf-msg[lang="pt-BR"] h1 { font-size: clamp(1.6rem, 4.2vw, 2.1rem); }
+</style>
+</head>
+<body>
+<main class="nf">
+  <div class="nf-inner">
+    <a class="nf-brand" href="/">
+      <span class="brand-mark" aria-hidden="true">JM</span>
+      <span class="brand-name">Julian Montgomery</span>
+    </a>
+    <p class="nf-code" aria-hidden="true">404</p>
+    <div class="nf-msgs">
+      <div class="nf-msg" lang="pt-BR"><h1>Página não encontrada.</h1><p>O link pode estar incorreto ou a página foi removida.</p></div>
+      <div class="nf-msg" lang="en"><h2>Page not found.</h2><p>The link may be incorrect, or the page has moved.</p></div>
+      <div class="nf-msg" lang="es"><h2>Página no encontrada.</h2><p>El enlace puede ser incorrecto o la página ya no existe.</p></div>
+    </div>
+    <div class="actions">
+      <a class="btn btn-gold" href="/" aria-label="Voltar ao início · Back to home · Volver al inicio">← julianglobal.com.br</a>
+    </div>
+  </div>
+</main>
+</body>
+</html>
