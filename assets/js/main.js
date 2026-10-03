@@ -2,7 +2,7 @@
    Contact settings. Change these three lines to update every
    email and WhatsApp link on the site.
    ========================================================== */
-const CONTACT_EMAIL = "juliantmontgomery@gmail.com";
+const CONTACT_EMAIL = "hello@julianglobal.com.br";
 const WHATSAPP_NUMBER = "5541998946742";
 const SITE_URL = "https://julianglobal.com.br/";
 
