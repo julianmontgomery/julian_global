@@ -53,7 +53,7 @@ window.I18N = {
     "why.title": "Por que trabalhar com Julian",
     "why1.t": "Inglês nativo dos EUA, com visão de negócios",
     "why1.d": "Sabe como profissionais dos EUA realmente falam, entrevistam e negociam.",
-    "why2.t": "Mais de 15 anos dentro do Brasil",
+    "why2.t": "Mais de 15 anos no Brasil",
     "why2.d": "Português fluente e vivência da cultura de trabalho brasileira: a prática começa onde a equipe trava.",
     "why3.t": "Experiência real de negócios",
     "why3.d": "MBA, empresa própria e consultoria para multinacionais. A prática usa cenários reais de trabalho, em vez de exemplos de livro.",
