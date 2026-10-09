@@ -98,6 +98,7 @@ const SITE_URL = "https://julianglobal.com.br/";
     root.setAttribute("data-lang", lang);
 
     document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
+    document.querySelectorAll("[data-hide-empty]").forEach((el) => { el.hidden = !el.textContent.trim(); });
     document.querySelectorAll("[data-i18n-html]").forEach((el) => { el.innerHTML = t(el.dataset.i18nHtml); });
     document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
       el.dataset.i18nAttr.split(";").forEach((pair) => {

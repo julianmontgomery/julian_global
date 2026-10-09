@@ -508,7 +508,10 @@ button { font: inherit; color: inherit; }
 .split-main > .text-link { align-self: flex-start; }
 
 /* Testimonials */
-.quotes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem 2.5rem; align-items: start; }
+.quotes { display: flex; flex-direction: column; gap: 3rem; }
+/* The five shorter quotes flow in two balanced columns, so none is left alone in a last row */
+.quotes-rest { columns: 2; column-gap: 2.5rem; margin-bottom: -2.5rem; }
+.quotes-rest .quote { break-inside: avoid; margin-bottom: 2.5rem; }
 .quote { display: flex; flex-direction: column; gap: 1rem; padding-top: 1.4rem; border-top: 1px solid var(--line-strong); position: relative; }
 .quote::before {
   content: "\201C"; position: absolute; top: -.05rem; left: 0;
@@ -526,8 +529,28 @@ button { font: inherit; color: inherit; }
 }
 .q-orig { font: italic 400 .98rem/1.55 var(--serif); color: var(--ink-soft); padding-left: 1rem; border-left: 2px solid var(--line-strong); }
 :root[data-lang="pt"] .q-meta, :root[data-lang="pt"] .q-orig { display: none !important; }
+/* Featured letter of recommendation: full width, set on the card surface with a gold top rule */
+.quote-featured {
+  background: var(--card); border: 1px solid var(--line); border-top: 2px solid var(--gold);
+  padding: clamp(1.4rem, 4vw, 2.4rem);
+}
+.quote-featured::before { position: static; transform: none; order: 1; height: 1.4rem; line-height: 1; }
+.quote-featured .q-label { order: 0; }
+.quote-featured .q-text { order: 2; padding-top: 0; font-size: clamp(1.1rem, 1.5vw, 1.24rem); line-height: 1.65; max-width: 72ch; }
+.quote-featured figcaption { order: 3; flex-direction: column; gap: .15rem; }
+.quote-featured .q-role::before { content: none; }
+.quote-featured .q-meta { order: 4; }
+.q-label {
+  align-self: flex-start;
+  font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--gold-ink); border: 1px solid var(--line-strong); border-radius: 999px; padding: .25rem .75rem;
+}
+.q-role { color: var(--ink-soft); }
+.q-role::before { content: "· "; }
 @media (max-width: 760px) {
-  .quotes { grid-template-columns: 1fr; gap: 2rem; }
+  .quotes { gap: 2.5rem; }
+  .quotes-rest { columns: 1; margin-bottom: -2rem; }
+  .quotes-rest .quote { margin-bottom: 2rem; }
 }
 
 /* ---------- Footer / contact ---------- */

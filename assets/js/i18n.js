@@ -7,6 +7,7 @@ window.I18N = {
   pt: {
     "meta.title": "Julian Montgomery | Consultor de Comunicação para Negócios Globais",
     "meta.description": "Consultoria intercultural EUA–Brasil e workshops práticos de comunicação em inglês para equipes brasileiras. Presencial em Florianópolis e online.",
+
     "ui.skip": "Pular para o conteúdo",
     "ui.menu": "Abrir menu de navegação",
     "ui.lang": "Mudar idioma",
@@ -154,7 +155,10 @@ window.I18N = {
     "t3.q": "Conheço o Julian a 5 anos... ele sempre se mostrou muito competente... Tenho amigos médicos que fizeram aulas especiais com ele para ministrar palestras e apresentar trabalhos que ficaram muito satisfeitos. O Julian por sua formação em marketing também domina a linguagem da área financeira.",
     "t4.q": "Julian é um ótimo professor. Estava um pouco enferrujado no inglês e fizemos 2 vezes na semana. Em 2 meses retomei bastante a qualidade do inglês. Além disso, ele possui bastante experiência de trabalho prévia em empresas, isso possibilita uma ótima conversação relacionada a 'business english'. Além disso, está sempre disponível para tirar dúvidas via WhatsApp. Eu o recomendo fortemente.",
     "t5.q": "Julian é um ótimo professor de inglês, demonstrando paixão pelo que faz! Prepara as aulas direcionadas às características de aprendizado do aluno... É humorado e elogia o progresso do aluno... E por fim, é americano, com um excelente nível linguístico português/inglês e valoriza a cultura brasileira.",
-    "t6.q": "Pra mim o Julian é o melhor, fico muito encantado com suas aulas e suas dicas! Até um amigo meu que mora nos EUA há 13 anos e que foi fazer um teste com ele pra ver se era bom mesmo, de cara já fechou um pacotão de aulas pra ele próprio, pra esposa e pra um funcionário que é brasileiro.",
+    "tf.label": "Carta de recomendação",
+    "tf.q": "Ao longo de mais de quatro anos, o Sr. Montgomery ministrou aulas particulares de inglês para quatro integrantes da nossa equipe, sempre adaptadas às demandas reais do trabalho de cada um... Destacamos sua confiabilidade, sua pontualidade e sua discrição no trato de conteúdos sensíveis, bem como sua capacidade de transitar entre as culturas profissionais do Brasil e dos Estados Unidos com sensibilidade e profissionalismo...",
+    "tf.role": "Diretora-adjunta, organização de direitos humanos, Rio de Janeiro",
+    "tf.note": "",
 
     "c.eyebrow": "Contato",
     "c.title": "Comece com uma conversa.",
@@ -334,7 +338,10 @@ window.I18N = {
     "t3.q": "I've known Julian for 5 years... he has always been highly competent. I have physician friends who took specialized classes with him to prepare talks and presentations, and they were very pleased. With his marketing background, Julian is also fluent in financial-sector language.",
     "t4.q": "Julian is a great teacher. My English was rusty and we met twice a week. In two months I'd regained a lot of ground. He also brings real prior business experience, which makes for excellent business English conversation. He's always available for questions on WhatsApp. I recommend him strongly.",
     "t5.q": "Julian is a great English teacher who clearly loves what he does. He tailors lessons to how each student learns best. He's good-humored and encourages progress. And on top of it all, he's American with excellent bilingual fluency, and he genuinely values Brazilian culture.",
-    "t6.q": "To me, Julian is the best. I'm delighted with his classes and his tips! Even a friend of mine who has lived in the U.S. for 13 years went to test him out to see if he was really good, and right away signed up for a big package of lessons for himself, his wife and a Brazilian employee.",
+    "tf.label": "Letter of recommendation",
+    "tf.q": "For more than four years, Mr. Montgomery has taught private English classes to four members of our team, always tailored to the real demands of each person's work... We particularly value his reliability, punctuality and discretion in handling sensitive material, as well as his ability to work between Brazilian and U.S. professional cultures with sensitivity and professionalism...",
+    "tf.role": "Deputy Director, human rights organization, Rio de Janeiro",
+    "tf.note": "",
 
     "c.eyebrow": "Contact",
     "c.title": "Start with a conversation.",
@@ -514,7 +521,10 @@ window.I18N = {
     "t3.q": "Conozco a Julian desde hace 5 años... siempre ha demostrado ser muy competente. Tengo amigos médicos que tomaron clases especiales con él para preparar charlas y presentaciones, y quedaron muy satisfechos. Por su formación en marketing, Julian también domina el lenguaje del sector financiero.",
     "t4.q": "Julian es un gran profesor. Mi inglés estaba oxidado y nos reuníamos dos veces por semana. En dos meses recuperé mucho terreno. Además, aporta experiencia real en empresas, lo que permite excelentes conversaciones de inglés de negocios. Siempre está disponible para resolver dudas por WhatsApp. Lo recomiendo ampliamente.",
     "t5.q": "Julian es un gran profesor de inglés que claramente ama lo que hace. Adapta las clases a la forma en que cada estudiante aprende mejor. Tiene buen humor y reconoce el progreso. Y, además de todo, es estadounidense, con excelente fluidez bilingüe, y valora sinceramente la cultura brasileña.",
-    "t6.q": "Para mí, Julian es el mejor. ¡Estoy encantado con sus clases y sus consejos! Incluso un amigo mío que vive en EE. UU. desde hace 13 años fue a ponerlo a prueba para ver si de verdad era bueno, y de inmediato contrató un paquete grande de clases para él, su esposa y un empleado brasileño.",
+    "tf.label": "Carta de recomendación",
+    "tf.q": "Durante más de cuatro años, el Sr. Montgomery ha impartido clases particulares de inglés a cuatro integrantes de nuestro equipo, siempre adaptadas a las demandas reales del trabajo de cada persona... Valoramos especialmente su confiabilidad, puntualidad y discreción en el manejo de material sensible, así como su capacidad para trabajar entre las culturas profesionales de Brasil y de EE. UU. con sensibilidad y profesionalismo...",
+    "tf.role": "Directora adjunta, organización de derechos humanos, Río de Janeiro",
+    "tf.note": "(traducción del original)",
 
     "c.eyebrow": "Contacto",
     "c.title": "Empiece con una conversación.",
